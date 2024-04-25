@@ -1,0 +1,194 @@
+:root {
+    --primaryColor: #1b2f41;
+    --secondaryColor: #4c4cad;
+    --whiteColor: #e0dcdc;
+    --grayColor: #9f9f9f;
+    --blackColor: #000;
+    --capital: capitalize;
+    --upper: uppercase;
+    --spacing: 4px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Calibri, "Times New Roman", Garamond, Arial, Helvetica, Cambria,
+    "Trebuchet MS", Georgia, Tahoma, Didot, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2 {
+    text-transform: var(--capital);
+    margin-bottom: 6px;
+
+}
+h2, h3, h4 {
+    color: var(--secondaryColor);
+    margin: 4px;
+}
+h1 {
+    font-size: 1.6em;
+}
+h2 {
+    font-size: 1.3em;
+}
+h3 {
+    text-transform: var(--upper);
+    letter-spacing: var(--spacing);
+    font-size: 1.3em;
+}
+h4 {
+    text-transform: var(--capital);
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.9em;
+}
+
+p {
+    font-size: 0.85em;
+    padding: 2px;
+}
+/*
+==============================
+    START HEADER
+============================
+ */
+.grid-template {
+    display: grid;
+    grid-template-columns: repeat(2, 500px);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    background: var(--primaryColor);
+    color: var(--whiteColor);
+    padding: 8px;
+    justify-content: space-between;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+
+img {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    left: 42%;
+    top: 7%;
+    object-fit: cover;
+}
+
+ol li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+
+.summary {
+    width: 340px;
+}
+
+.social-link {
+    margin-top: 10px;
+    text-align: end;
+    display: grid;
+}
+
+.link {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+/*
+==========================
+    EDUCATION
+==========================
+ */
+
+
+ul li {
+    margin: 0 5px;
+}
+.mark {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fa-check {
+    color: green;
+}
+
+.fa-xmark {
+    color: red;
+}
+/*
+=======================
+    PROJECT
+=======================
+ */
+.height-space {
+    margin: 8px 0;
+}
+
+/*
+========================
+    SKILLS
+========================
+ */
+#skills {
+    margin-bottom: 15px;
+}
+.skill {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.level {
+    display: flex;
+}
+.box {
+    width: 10px;
+    height: 10px;
+    border-radius: 2px;
+    margin: 4px;
+}
+.fill {
+    background-color: var(--secondaryColor);
+}
+.empty {
+    background-color: var(--grayColor);
+}
+
+/*
+========================
+    REFERENCE
+========================
+ */
+#contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 8px;
+}
+
+div>h5 {
+    margin: 2px;
+}
+
+i {
+    margin: 8px 0 0 4px;
+}
+
+span>i {
+    color: var(--secondaryColor);
+}
