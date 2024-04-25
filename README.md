@@ -62,7 +62,7 @@ Day 54: Introduction to Web Development with Flask\
 Day 55: HTML & URL Parsing in Flask and the Higher Lower Game\
 Day 56: Rendering HTML/Static Files and Name Card Project\
 Day 57: Templating with Jinja and Blog Project\
-Day 58: Bootstrap\
+Day 58: Bootstrap
 
 🚀 Advanced\
 Day 59: Upgraded Blog with Bootstrap\
