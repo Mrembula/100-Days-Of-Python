@@ -1,8 +1,8 @@
 What you'll find if you go through the files
 
-Begineer 
-Day 01: Working with Variables in Python to Manage Data
-Day 02: Understanding Data Types and How to Manipulate Strings
+Begineer\
+Day 01: Working with Variables in Python to Manage Data.\
+Day 02: Understanding Data Types and How to Manipulate Strings\
 Day 03: Control Flow and Logical Operators
 Day 04: Randomisation and Python Lists
 Day 05: Python Loops
